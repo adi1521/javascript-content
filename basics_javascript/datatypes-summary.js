@@ -41,3 +41,27 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//***** 
+//stack(primitive),heap(non-primitive)
+let num1=12 // stored in stack
+let num2=num1 // basically num2 variable is actually storing copy of the value of num1 but if we change the value in num2 then it will not change anything in num1
+console.log(num2)
+console.log(num1)
+num2=67
+console.table([num1 ,num2])
+
+// heap(reference datatype)
+  let mydetail= {
+     name: "aditya",
+     email:"a@google.com"
+
+     }
+     console.log(mydetail)
+     console.log(mydetail.name)
+     console.log(mydetail.email)
+     mydetail.email="hello@google.com"
+     console.log(mydetail)
+    
+
+// here object is stored in heap memory basically mydetail is the reference to the value which is stored in the heap memory. when you change it that basically means you are actually changing the value at that address.
