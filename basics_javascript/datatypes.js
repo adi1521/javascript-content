@@ -5,7 +5,7 @@ console.log(3
     +
     5) //it works but code readability is not good so avoid it 
     console.log("aditya")
-    let nam="aditya pandey"
+    let name="aditya pandey"
     let age=18
     let isloggedIn= true
     let state;
