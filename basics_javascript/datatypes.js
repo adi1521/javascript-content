@@ -22,7 +22,7 @@ console.log(3
 
     //object
 
-    console.log(typeof nam)
+    console.log(typeof name)
     console.log(typeof age)
     console.log(typeof 18)
     console.log(typeof undefined)
